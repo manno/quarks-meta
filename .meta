@@ -1,3 +1,8 @@
 {
-  "projects": {}
+  "projects": {
+    "quarks-operator": "git@github.com:cloudfoundry-incubator/quarks-operator",
+    "quarks-job": "git@github.com:cloudfoundry-incubator/quarks-job",
+    "quarks-secret": "git@github.com:cloudfoundry-incubator/quarks-secret",
+    "quarks-statefulset": "git@github.com:cloudfoundry-incubator/quarks-statefulset"
+  }
 }
