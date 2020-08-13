@@ -3,3 +3,7 @@
 /quarks-secret/
 /quarks-statefulset/
 /quarks-utils/
+node_modules/
+package-lock.json
+tmp
+.envrc
