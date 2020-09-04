@@ -3,6 +3,14 @@
 
 This uses https://github.com/mateodelnorte/meta
 
+## Loop options
+
+https://www.npmjs.com/package/loop
+
+
+## quarks-*
+
+
 * https://github.com/cloudfoundry-incubator/quarks-operator
 * https://github.com/cloudfoundry-incubator/quarks-job
 * https://github.com/cloudfoundry-incubator/quarks-secret
@@ -29,5 +37,7 @@ meta git checkout -b a-branch
 meta exec "git apply $PWD/a.patch"
 meta git commit -p -m "a message"
 meta git push -u origin
-meta gh pr ...
+meta gh pr
+meta gh pr --include-only quarks-operator
+meta git status --exclude=quarks-meta
 ```
